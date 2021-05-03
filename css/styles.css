@@ -84,8 +84,11 @@ body {
 }
 
 
-
-
+.x{
+  color: black;
+font-size: 4.3rem !important;
+/* make it 5.5 for large displays*/
+}
 
 
 .color{
@@ -110,9 +113,6 @@ body {
    padding-right: 2rem;
    padding-left: 2rem;
    font-size: 1.2rem;
-    /* margin-bottom: 100px;
-    margin-right: 150px;
-    margin-left: 80px; */
     font-family: 'Roboto', sans-serif;
 }
 
@@ -155,17 +155,13 @@ li {
     text-align: -webkit-match-parent;
 }
 
-/* .container-md{
-    margin:0rem 50rem 0rem 15rem;
-} */
+
 
 .iconspace{
     margin:0rem .3rem 0rem 0rem;
 }
 
-/* .itemspace{
-    margin:0rem .5rem 0rem 0rem;
-} */
+
 
 .nav-link{
     font-size: large;
@@ -177,17 +173,7 @@ li {
     color: #ffffff !important;
   }
   
-  /* .nav-pills > li > a:hover {
-    color: #4169e1 !important;
-  } */
   
-  /* .nav-link-color {
-    color: #ffffff;
-  } */
-
-/* .nav-link-style{
-    
-} */
 
   .navbar-toggler {
     /* (80px - button height 34px) / 2 = 23px */
@@ -210,30 +196,10 @@ li {
     transform:translateY(0); transition: all 0.3s ease-in-out;
   }
 
-/* body {
 
-}
-
-h1 {
-
-}
-
-h2{
-
-}
-
-h3{
-
-}
-
-p{
-
-} */
 /*CLASS SELECTORS */
 
 /* ID SELECTORS */
-
-
 
 /* Display: block, inline, inline-block, none */
 
