@@ -1,0 +1,251 @@
+.sps {
+    padding: 1em .5em;
+    position: fixed;
+    top: 0;
+    left: 0;
+    transition: all 0.25s ease;
+    width: 100%;
+  }
+  
+   .sps--abv {
+    background-color: #343a40;
+    color: white;
+  }
+  
+ .sps--blw {
+    background-color: #e9ecef;
+    color: #000;
+    -webkit-box-shadow: 0 8px 6px -6px #999;
+    -moz-box-shadow: 0 8px 6px -6px #999;
+    box-shadow: 0 8px 6px -6px #999;
+  }
+
+  .nav-link{
+    color: inherit !important;
+    }
+
+    .navbar-brand{
+        color: inherit !important;
+    }
+
+    .colorr{
+        color:inherit;
+    }
+
+    /* .custom-toggler .navbar-toggler-icon {
+        background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,102,203, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+      }
+      
+      .custom-toggler.navbar-toggler {
+        border-color: inherit;
+      }  */
+
+      .x{
+        
+          /* align-items: center; */
+          background-size: cover;
+          color: black;
+          
+         
+          
+        
+        font-size: 4.3rem;
+      }
+    
+body {
+    background-color: #e9ecef !important;
+    color: #000;
+    padding-top: 2em;
+  }
+
+
+/*IMAGE MODIFIERS*/
+.round {
+    width: 13rem;
+    height: 13rem;
+    border-radius: 50%;
+    shape-outside: circle();
+    background-color: white;
+}
+
+.square{
+    width: 13rem;
+    height: 13rem;
+    border-radius: 75px;
+    shape-outside: circle();
+    background-color: white;
+}
+
+.pl{
+    width: 13rem;
+    height: 13rem;
+    shape-outside: circle();
+    color: white;
+}
+
+
+
+
+
+
+.color{
+    background-color: #e9ecef;
+    color: #393e46;
+}
+
+
+
+.container{
+    margin-top: 4rem;
+}
+
+
+.h1{
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+.p1{
+   padding-top: .5rem;
+   padding-right: 2rem;
+   padding-left: 2rem;
+   font-size: 1.2rem;
+    /* margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 80px; */
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+.intro-1-title{
+    padding-top: 3.75rem;
+    font-family: 'Noto Sans TC', sans-serif;
+}
+
+
+.Home{
+    text-align: center;
+    font-family: 'Noto Sans TC', sans-serif;
+   
+}
+
+.jumbotron{
+    color: #393e46;
+    font-family: 'Noto Sans TC', sans-serif;
+}
+
+.navbar-nav{
+display: flex;
+flex-direction: column;
+padding-left: 0;
+margin-bottom: 0;
+list-style: none;
+}
+.col-6{
+    flex: 0 0 auto;
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: auto;
+    width: 50%;
+}
+
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+
+/* .container-md{
+    margin:0rem 50rem 0rem 15rem;
+} */
+
+.iconspace{
+    margin:0rem .3rem 0rem 0rem;
+}
+
+/* .itemspace{
+    margin:0rem .5rem 0rem 0rem;
+} */
+
+.nav-link{
+    font-size: large;
+}
+
+
+.nav-pills > li > a.active {
+    background-color: #0e066d !important;
+    color: #ffffff !important;
+  }
+  
+  /* .nav-pills > li > a:hover {
+    color: #4169e1 !important;
+  } */
+  
+  /* .nav-link-color {
+    color: #ffffff;
+  } */
+
+/* .nav-link-style{
+    
+} */
+
+  .navbar-toggler {
+    /* (80px - button height 34px) / 2 = 23px */
+    padding: 9px 10px !important;
+  }
+
+  @media (min-width: 768px) {
+    .navbar-nav > li > a {
+      /* (80px - line-height of 27px) / 2 = 26.5px */
+      padding-top: 26.5px;
+      padding-bottom: 26.5px;
+      line-height: 27px;
+    }
+  }
+
+  .scrolled-down{
+    transform:translateY(-100%); transition: all 0.3s ease-in-out;
+  }
+  .scrolled-up{
+    transform:translateY(0); transition: all 0.3s ease-in-out;
+  }
+
+/* body {
+
+}
+
+h1 {
+
+}
+
+h2{
+
+}
+
+h3{
+
+}
+
+p{
+
+} */
+/*CLASS SELECTORS */
+
+/* ID SELECTORS */
+
+
+
+/* Display: block, inline, inline-block, none */
+
+/*span*/
+/*auto*/
+/* position: static, relative, absolute, fixed */
+/* coordinates: top, bottom, left, right*/
+/*content, padding, border, margin*/
+/* rem ,em, m, pixels, percentage */
+/*width, height*/
+/*font family*/
+/*font color, font weight, line height*/
+/*text align*/
+/* relative size inheritance*/
+/*float and clear properties*/ 
