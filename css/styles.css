@@ -55,7 +55,7 @@
 body {
     background-color: #e9ecef !important;
     color: #000;
-    padding-top: 2em;
+    /* padding-top: 2em; */
   }
 
 
@@ -367,14 +367,14 @@ li {
 /*float and clear properties*/ 
 .scrollspy-example{
 /* position: relative; */
-margin-top: .5rem;
+/* margin-top: .5rem; */
 overflow: auto;
 }
 
 
 body{
   position: relative;
-  margin-top: .5rem;
+  /* margin-top: .5rem; */
 overflow: auto;
 }
 footer{
@@ -385,7 +385,7 @@ footer{
 
 @media (max-height:800px){
 	footer { position: static; }
-	header { padding-top:40px; }
+	/* header { padding-top:40px; } */
 }
 
 
