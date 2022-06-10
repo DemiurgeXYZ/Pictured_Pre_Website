@@ -146,6 +146,14 @@ font-size: 4.3rem !important;
     font-family: 'Roboto', sans-serif;
 }
 
+.p2{
+  text-align: left;
+  padding-top: .5rem;
+  padding-right: 2rem;
+  padding-left: 2rem;
+  font-size: 1.6rem;
+   font-family: 'Roboto', sans-serif;
+}
 
 
 .intro-1-title{
